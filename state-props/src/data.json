@@ -1,0 +1,30 @@
+{
+    "movie": [
+        {
+            "id": 0,
+            "photo": "movie1",
+            "product": "ADIDAS STAN SMITH",
+            "price": "$160"
+        },
+        {
+            "id": 1,
+            "photo": "movie2",
+            "product": "ADIDAS STAN SMITH",
+            "price": "$200"
+        }
+    ],
+    "game": [
+        {
+            "id": 0,
+            "photo": "game1",
+            "product": "ADIDAS STAN SMITH",
+            "price": "$160"
+        },
+        {
+            "id": 1,
+            "photo": "game1",
+            "product": "ADIDAS STAN SMITH",
+            "price": "$200"
+        }
+    ]
+}

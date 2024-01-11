@@ -1,0 +1,58 @@
+body {
+    background-color: pink;
+}
+
+.done {
+    background-color: orange;
+}
+
+.todolist {
+    width: 400px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+
+    h2 {
+        margin: 0;
+        background-color: gray;
+        color: white;
+        text-align: center;
+    }
+
+    p {
+        text-align: right;
+        font-size: 12px;
+    }
+
+    .list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            padding: 15px 0;
+            border-bottom: 1px dashed #000;
+        }
+    }
+
+    .write {
+        margin-top: 20px;
+
+        input {
+            width: 100%;
+            box-sizing: border-box;
+            height: 30px;
+        }
+
+        input[type='submit'] {
+            background-color: lightblue;
+            border: none;
+            color: black;
+            height: 30px;
+            font-weight: 800;
+        }
+    }
+}

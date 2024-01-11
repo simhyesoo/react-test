@@ -1,0 +1,35 @@
+//test.scss
+
+header {
+    background-color: black;
+    text-align: center;
+
+    nav {
+        a {
+            color: white;
+            padding: 15px 30px;
+            display: inline-block;
+        }
+    }
+}
+
+main {
+    width: 70%;
+    margin: 100px auto;
+}
+
+article {
+    margin: 100px 0;
+}
+
+* {
+    line-height: 2;
+}
+
+*:not(h2) {
+    color: #555;
+}
+
+h2 {
+    color: black;
+}

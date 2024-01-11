@@ -1,0 +1,54 @@
+main {
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        margin: 0 auto;
+        display: inline;
+        display: flex;
+        justify-content: center;
+
+        a {
+            margin: 30px;
+            text-decoration: none;
+            color: black;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+body {
+    margin: 10px 100px;
+
+
+    #root {
+
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    button {
+        width: 100px;
+        height: 30px;
+
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    ul {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        li {
+            width: 25%;
+            list-style: none;
+            text-align: center;
+        }
+    }
+}

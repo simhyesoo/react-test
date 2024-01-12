@@ -1,14 +1,19 @@
 import React from 'react';
+// import Register from 'Register';
 
-function List(props) {
+function List({ data }) {
     return (
         <div className='list'>
             <ul>
-                <li>
-                    <p>1.17</p>
-                    <p>강남역 커피빈</p>
-                    <p>-5,200</p>
-                </li>
+                {data.map((list) => {
+
+                    return <li>
+                        <p>{list.date}</p>
+                        <p>{list.message}</p>
+                        <p>{list.price}</p>
+                    </li>
+                })
+                }
             </ul>
         </div>
     );
